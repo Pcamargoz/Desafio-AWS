@@ -13,7 +13,7 @@ O projeto de implementação foi dividido em três etapas, cada uma com foco em 
 ### Etapa 1: Amazon EC2  
 - **Foco da ferramenta:** Infraestrutura de servidores em nuvem (IaaS) no modelo híbrido.  
 - **Caso de uso:** Migrar parte da infraestrutura on‑premises (servidores internos da farmácia) para instâncias EC2, permitindo escalabilidade sob demanda.  
-  - Durante horários de pico, sobe-se a quantidade de instâncias; em horários de menor uso, reduz-se, gerando economia de até 40 % em comparação a servidores 100 % dedicados.  
+  - Durante horários de pico, sobe-se a quantidade de instâncias; em horários de menor uso, reduz-se, gerando economia de até 40 % em comparação a servidores 100 % dedicados. É usando somente o que realmente e nescessitado e usado.
   - Integração de VPN entre data center local e VPC na AWS garante segurança e alta disponibilidade.
 
 ### Etapa 2: Amazon Aurora Serverless  
